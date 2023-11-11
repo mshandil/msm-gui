@@ -2,6 +2,23 @@
   List of all actors
 </h1>
 
+<form action="/insert_actor_record" method="post">
+  <label for="name">Name:</label>
+  <input id="name" type="text" name="name" required>
+
+  <label for="dob">Date of Birth:</label>
+  <input id="dob" type="date" name="dob" required>
+
+  <label for="bio">Bio:</label>
+  <textarea id="bio" name="bio" required></textarea>
+
+  <label for="image">Image:</label>
+  <input id="image" type="text" name="image" required>
+
+  <button type="submit">Create actor</button>
+</form>
+
+
 <hr>
 
 <table border="1">

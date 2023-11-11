@@ -2,6 +2,28 @@
   List of all movies
 </h1>
 
+<form action="/insert_movie_record" method="post">
+  <label for="title">Title:</label>
+  <input id="title" type="text" name="title" required>
+
+  <label for="year">Year:</label>
+  <input id="year" type="number" name="year" required>
+
+  <label for="duration">Duration:</label>
+  <input id="duration" type="number" name="duration" required>
+
+  <label for="description">Description:</label>
+  <textarea id="description" name="description" required></textarea>
+
+  <label for="image">Image:</label>
+  <input id="image" type="text" name="image" required>
+
+  <label for="director_id">Director ID:</label>
+  <input id="director_id" type="number" name="director_id" required>
+
+  <button type="submit">Create movie</button>
+</form>
+
 <hr>
 
 <table border="1">

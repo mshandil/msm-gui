@@ -1,6 +1,21 @@
 <h1>
   List of all directors
 </h1>
+<form action="/insert_director_record" method="post">
+  <label for="name">Name:</label>
+  <input id="name" type="text" name="name" required>
+
+  <label for="dob">Date of Birth:</label>
+  <input id="dob" type="date" name="dob" required>
+
+  <label for="bio">Bio:</label>
+  <textarea id="bio" name="bio" required></textarea>
+
+  <label for="image">Image:</label>
+  <input id="image" type="text" name="image" required>
+
+  <button type="submit">Create Director</button>
+</form>
 
 <hr>
 
